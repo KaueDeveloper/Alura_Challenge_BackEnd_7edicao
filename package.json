@@ -1,0 +1,28 @@
+{
+  "name": "alura_challenge_backend_7edicao",
+  "version": "1.0.0",
+  "description": "Projeto de uma API rest da Alura Challenge - 7° edição",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaueDeveloper/Alura_Challenge_BackEnd_7edicao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KaueDeveloper/Alura_Challenge_BackEnd_7edicao/issues"
+  },
+  "homepage": "https://github.com/KaueDeveloper/Alura_Challenge_BackEnd_7edicao#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
