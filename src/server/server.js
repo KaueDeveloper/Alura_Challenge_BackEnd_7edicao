@@ -50,6 +50,24 @@ class Server {
             return errorMessage;
         }
     }
+
+    /*Obs: Por ser apenas um projeto challange para a Alura, a 
+    configuração do CORS foi projetada para ser passada diretamente como parâmetro,
+    sem nenhum tratamento de dados. Em um projeto real e profissional, não deixaria
+    isso passar.*/
+
+    //Configuração do CORS
+    async configCors(cors) {
+        try {
+            server.use(cors);
+        }
+        catch (err) {
+            let errorMessage = `Erro no servidor: ${err.message}`;
+
+            console.error(errorMessage);
+            return errorMessage;
+        }
+    }
 }
 
 module.exports = new Server;

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/KaueDeveloper/Alura_Challenge_BackEnd_7edicao#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
